@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_secure_password
   has_many :images
   has_many :items
   has_many :user_categories
